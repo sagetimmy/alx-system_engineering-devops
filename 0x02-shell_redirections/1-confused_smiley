@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Script: 1-confused_smiley.sh
+# Description: Displays a confused smiley "(Ôo)'.
+
+echo '"(Ôo)'\"
+
