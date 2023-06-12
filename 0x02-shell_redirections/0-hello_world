@@ -1,8 +1,2 @@
 #!/bin/bash
-
-# Script: hello_world.sh
-# Description: Prints "Hello" or "World" followed by a new line to the standard output in Ubuntu.
-
-echo "Hello"
-echo "World"
-
+echo "Hello, world"
