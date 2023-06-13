@@ -1,0 +1,2 @@
+#!/bin/bash
+{ IFS=$'\n'; for line in $(cat); do echo $line; done } | tac
