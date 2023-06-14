@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$BREATH ^ $LOVE" | d#c
+echo $((BREATH ** LOVE))
