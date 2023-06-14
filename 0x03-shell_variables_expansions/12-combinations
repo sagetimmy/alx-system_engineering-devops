@@ -1,0 +1,2 @@
+#!/bin/bash
+for ((i=97; i<=122; i++)); do for ((j=97; j<=122; j++)); do [[ $i -eq 111 && $j -eq 111 ]] && continue; printf "%s%s\n" "$(printf "\\$(printf %o "$i")")" "$(printf "\\$(printf %o "$j")")"; done; done
